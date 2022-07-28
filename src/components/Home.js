@@ -8,8 +8,8 @@ const Home = () => {
     return (
         <>
             <h1 className='text-center my-5 text-lg'>Shop the Job</h1>
-            <div className='mx-auto my-auto p-[10px] w-[20rem] h-[20rem] rounded-full bg-gray-900 border-solid border-[15px] border-pink-900'>
-                <div className="ml-9 grid grid-cols-6 gap-4">
+            <div className='mx-auto my-auto p-[15px] w-[24rem] h-[24rem] rounded-full bg-gray-900 border-solid border-[15px] border-pink-900'>
+                <div className="ml-[40px] grid grid-cols-6 gap-4">
                     <div className="col-start-3 col-span-1">
                         <button onMouseMove={() => { setbuttonText('Matts'); setbuttonImg('images/Asset 26.png'); setRotate('rotate-[0deg]'); }} onClick={() => { History.push('/products/Matts'); window.location.reload(false); }}><img src='images/Asset 26.png' alt='products' /></button>
                     </div>
@@ -19,7 +19,7 @@ const Home = () => {
                     <div className="col-end-6 col-span-1">
                         <button onMouseMove={() => { setbuttonText('Walls'); setbuttonImg('images/Asset 25.png'); setRotate('rotate-[50deg]'); }} onClick={() => { History.push('/products/Walls'); window.location.reload(false); }}><img src='images/Asset 25.png' alt='products' /></button>
                     </div>
-                    <div className="col-start-1 col-end-2 ml-[-40px] mt-[25px]">
+                    <div className="col-start-1 col-end-2 ml-[-45px] mt-[25px]">
                         <button onMouseMove={() => { setbuttonText('Thanks'); setbuttonImg('images/Asset 22.png'); setRotate('rotate-[270deg]'); }} onClick={() => { History.push('/products/Thanks'); window.location.reload(false); }}><img className='w-[30px] h-[50px]' src='images/Asset 22.png' alt='products' /></button>
                     </div>
                     <div className='z-10 ml-[50px] mt-[20px]'>
